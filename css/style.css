@@ -1,0 +1,164 @@
+body {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+header {
+    width: 100%;
+    background-color: #5d04d9;
+    padding: 1rem 0;
+}
+
+.material-symbols-outlined {
+    color: white;
+}
+
+.titulo {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.icones {
+    display: flex;
+    gap: 0.3rem;
+}
+
+.icone_titulo {
+    width: 2rem;
+}
+
+.texto_titulo {
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    padding: 60px 40px;
+    gap: 70px;
+    flex-wrap: wrap-reverse;
+}
+
+.catalogo {
+    width: 758px;
+}
+
+.titulo_catalogo {
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.grid_catalogo {
+    max-width: 758px;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    box-shadow: -12px 10px 5.8px 0 #00000040;
+}
+
+
+/* CARD PRODUTO */
+
+.card_produto {
+    width: 196px;
+    height: 258px;
+    background-color: #5d04d9;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: -5px 6px 3.3px 0 #00000040;
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0;
+    margin: 10px;
+}
+
+.img_produto {
+    width: 176px;
+    height: 174px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.img_produto>img {
+    width: 176px;
+    height: 174px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.nome_produto {
+    font-family: "IBM Plex Mono", monospace;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.info_produto {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.preco_produto {
+    font-family: "IBM Plex Mono", monospace;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.cesta {
+    width: 472px;
+    display: grid;
+    gap: 40px;
+}
+
+.grupo_input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+input {
+    width: 392px;
+    height: 38px;
+    border-radius: 23px;
+    border: 3px solid #03318C;
+    font-family: "IBM Plex Mono", monospace;
+    color: #03318C;
+    font-weight: 600;
+    padding: 0 12px;
+}
+
+.grupo_botao {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+
+button {
+    border: 3px solid #03318C;
+    font-family: "IBM Plex Mono", monospace;
+    color: #03318C;
+    border-radius: 14px;
+    width: 150px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.submit {
+    color: white;
+    background-color: #03318C;
+}
